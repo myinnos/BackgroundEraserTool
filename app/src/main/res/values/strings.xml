@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Background Eraser</string>
+    <string name="choose_image">Choose Image From Gallery</string>
+    <string name="hint_name">type url</string>
+    <string name="choose_type">Choose type</string>
+    <string name="default_url">https://i.postimg.cc/CK2DdpR9/kristen-stewart-in-breaking-dawn-part-2-635787414231886031-16667.jpg</string>
+</resources>

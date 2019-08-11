@@ -1,0 +1,2 @@
+include ':app', ':bgeraser', ':bgeraserlib'
+project(':bgeraserlib').projectDir = new File('bgeraserlib2')

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BGEraser</string>
+    <string name="dialog_message">Are you sure you want to close?</string>
+    <string name="button_done">Done</string>
+    <string name="button_magic">Magic</string>
+    <string name="button_eraser">Eraser</string>
+    <string name="button_mirror">Mirror</string>
+    <string name="button_position">Position</string>
+    <string name="restore">RESTORE</string>
+    <string name="remove">REMOVE</string>
+    <string name="unerase">UNERASE</string>
+    <string name="erase">ERASE</string>
+</resources>
