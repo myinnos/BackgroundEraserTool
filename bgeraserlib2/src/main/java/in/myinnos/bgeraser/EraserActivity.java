@@ -32,7 +32,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.target.CustomTarget;
+import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 
 import java.io.IOException;
@@ -113,7 +113,7 @@ public class EraserActivity extends Activity implements OnClickListener {
                 Glide.with(this)
                         .asBitmap()
                         .load(imageUrl)
-                        .into(new CustomTarget<Bitmap>() {
+                        .into(new SimpleTarget<Bitmap>() {
                             @Override
                             public void onResourceReady(@NonNull Bitmap resource, @Nullable Transition<? super Bitmap> transition) {
                                 mBitmap = resource;
